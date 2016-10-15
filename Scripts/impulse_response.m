@@ -5,4 +5,4 @@ function [x,n] = impulse_response()
 	% create impulse response
 	h = @(n) (wc/pi)*sinc((wc*n)/pi);
 	n = -15:15;
-	x = h(n) 
+	x = h(n); 

@@ -1,6 +1,6 @@
 function [a, t] = accel_data()
-	front = 1; 
-	tail = 5000; 
+	front = 2000; 
+	tail = 7700; 
 	axis = 4; 
 
 	filename = '../Acceleration_Data/bucket_test.csv';
