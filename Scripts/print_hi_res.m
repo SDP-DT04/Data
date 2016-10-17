@@ -1,3 +1,3 @@
 function print_hi_res(title)
-	set(gcf, 'PaperPosition', [0 0 100 100]);
-	print(title,'-dpng','-r200')  
+	set(gcf, 'PaperPosition', [0 0 50 50]);
+	print(title,'-dpng','-r100')  

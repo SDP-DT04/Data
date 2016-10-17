@@ -1,5 +1,5 @@
 function [a, t] = accel_data()
-	front = 2000; 
+	front = 2200; 
 	tail = 7700; 
 	axis = 4; 
 
